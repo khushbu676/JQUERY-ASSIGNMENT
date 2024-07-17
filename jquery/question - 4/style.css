@@ -1,0 +1,29 @@
+.box{
+    display: flex;
+    justify-content: center;
+   margin-top: 140px;
+  
+   }
+.box1{
+    border: 2px solid black;
+    height: 200px;
+    width: 200px;
+    margin: 20px;
+    
+}
+
+button{
+    margin-left: 950px;
+}
+
+#img1, #img2, #img3{
+    height: 200px;
+    width: 200px;
+    background-position: center;
+    background-image: url(img1.jpeg);
+    background-size: cover;
+
+}
+
+
+

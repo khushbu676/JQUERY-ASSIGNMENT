@@ -1,0 +1,45 @@
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20PX;
+    margin: auto;
+    height: 600px;
+}
+
+
+#box1, #box2, #box3, #box4,#box5, #box6 {
+    height: 250px;
+    width: 100px;
+    border: 2px solid white;
+}
+
+#box1 {
+    background-color: red;
+
+}
+
+#box2 {
+    background-color: aqua;
+
+}
+
+#box3 {
+    background-color: lightgreen;
+
+}
+
+#box4 {
+    background-color: black;
+
+}
+
+#box5 {
+    background-color: mediumvioletred;
+
+}
+
+#box6 {
+    background-color: brown;
+
+}

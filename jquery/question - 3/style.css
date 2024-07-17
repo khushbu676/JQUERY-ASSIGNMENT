@@ -1,0 +1,43 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    background: rgb(41, 140, 140);
+  }
+  .input_item {
+    background: #fff;
+    margin: 180px auto;
+    padding: 1rem;
+    width: 320px;
+    box-shadow: 0 5px 10px -3px rgba(0, 0, 0, 0.3);
+  }
+  .input_item label {
+    position: relative;
+  }
+  
+  .input_item input {
+    width: 100%;
+    padding: 15px;
+    font-size:17px;
+    padding-right: 50px;
+    border: 1.4px solid #e6d9d9;
+  }
+    .input_item .showPass {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    font-size: 15px;
+    margin: 0;
+    background: transparent;
+    padding: 0;
+    border: 0;
+    line-height: 1;
+    margin-right: 10px;
+    cursor: pointer;
+    color: dodgerblue;
+    }
+.input_item .showPass:focus {
+  outline: none;
+}
